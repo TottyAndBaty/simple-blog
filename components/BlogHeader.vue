@@ -3,7 +3,7 @@
     <nav class="container mx-auto px-4 max-w-4xl">
       <div class="flex items-center justify-between h-16">
         <NuxtLink to="/" class="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-          我的博客
+          {{ siteName }}
         </NuxtLink>
         <div class="flex space-x-6">
           <NuxtLink
@@ -22,6 +22,8 @@
 </template>
 
 <script setup lang="ts">
+const { public: { siteName } } = useRuntimeConfig();
+
 const navItems = [
   { label: '首页', to: '/' },
   { label: '文章', to: '/posts' },

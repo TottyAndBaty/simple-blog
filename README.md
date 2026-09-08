@@ -1,7 +1,9 @@
 # Personal Blog
 
 一个基于 **Nuxt 3** 构建的个人技术博客，使用 `@nuxt/content` 以 Markdown 管理文章，`Tailwind CSS` 负责样式。支持文章列表、分类、标签、代码高亮等功能，并通过 `nuxt generate` 输出纯静态站点。
-
+<p align="center">
+  <img src="assets/preview.png" alt="预览">
+</p>
 ## ✨ 特性
 
 - 📝 **Markdown 内容驱动**：文章、关于页均以 Markdown 编写，由 `@nuxt/content` 渲染
