@@ -1,0 +1,25 @@
+# Nuxt
+.nuxt
+.output
+.nitro
+.cache
+dist
+
+# Node
+node_modules
+logs
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea
+.vscode
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
